@@ -1,11 +1,37 @@
 <p align="center">
   <a href="https://wvm.dev">
-    <img src="https://raw.githubusercontent.com/weaveVM/.github/main/profile/bg.png">
+    <img src="./media/banner.png">
   </a>
 </p>
 
 ## About
 WeaveVM Archiver is an ETL archive pipeline for EVM networks. It's the simplest way to interface with WeaveVM's permanent data feature without smart contract redeployments.
+
+## About GOAT Network
+[GOAT Network](https://goat.network) is the 1st BTC L2 to Share Network Ownership Sustainable BTC yield, and zkVM-Powered native security.
+
+## goat-wvm-archiver node configuration
+
+- node endpoint: https://goat-wvm-archiver.shuttleapp.rs
+- wvm-archiver node version: [v0.1.2](https://github.com/weaveVM/wvm-archiver/releases/tag/v0.1.2)
+
+### Node configuration
+
+```json
+{
+    "name": "GOATDev",
+    "network_chain_id": 3456,
+    "wvm_chain_id": 9496,
+    "network_rpc": "http://3.15.141.150:8545",
+    "wvm_rpc": "https://testnet-rpc.wvm.dev",
+    "block_time": 2,
+    "start_block": 20902,
+    "archiver_address": "0xE5e289FC97C63f64B1EC5e061d7f176e02eBE5A0",
+    "archive_pool_address": "0x0000000000000000000000000000000000000000"
+}
+```
+
+# Generic documentation content from [wvm-archiver](https://github.com/weaveVM/wvm-archiver) repo
 
 ### WeaveVM Archiver Usage
 
