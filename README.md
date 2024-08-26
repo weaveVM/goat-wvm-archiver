@@ -20,7 +20,7 @@ WeaveVM Archiver is an ETL archive pipeline for EVM networks. It's the simplest 
 ```json
 {
     "name": "GOATDev",
-    "network_chain_id": 3456,
+    "network_chain_id": 2345,
     "wvm_chain_id": 9496,
     "network_rpc": "http://3.15.141.150:8545",
     "wvm_rpc": "https://testnet-rpc.wvm.dev",
