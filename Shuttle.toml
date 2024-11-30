@@ -1,4 +1,4 @@
-name = "wvm-archiver"
+name = "goat-wvm-archiver"
 
 assets = [
     ".env"
