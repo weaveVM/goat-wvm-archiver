@@ -1,5 +1,2 @@
-name = "goat-wvm-archiver"
-
-assets = [
-    ".env"
-]
+[build]
+assets = ["networks/*"]
